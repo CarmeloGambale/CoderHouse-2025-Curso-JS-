@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Share Tech Mono", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(130deg, #09111f, #131f3d 45%, #2b1055 100%);
+    background-size: 200% 200%;
+    color: #f1f5ff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.contenedor {
+    max-width: 720px;
+    background: rgba(12, 17, 38, 0.82);
+    padding: 32px;
+    border-radius: 18px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(0, 255, 213, 0.22);
+}
+
+.titulo {
+    font-family: "Orbitron", "Share Tech Mono", sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 18px;
+    text-align: center;
+    color: #7df9ff;
+    letter-spacing: 0.12em;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 255, 187, 0.6);
+}
+
+.titulo::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, #00ffbf, #7df9ff);
+    border-radius: 4px;
+    transform: translateX(-50%);
+    box-shadow: 0 0 12px rgba(0, 255, 187, 0.7);
+}
+
+.descripcion {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 16px 0;
+}
+
+.descripcion strong {
+    color: #00ffc6;
+}
+
